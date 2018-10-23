@@ -1,0 +1,131 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px ;
+    font-weight: 600 ;
+    color: white ;
+}
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.container-fluid{
+    padding: 0 ;
+    margin: 0 ;
+}
+.jumbotron{
+    background: url(../img/30174.jpg) no-repeat center center fixed;
+    background-size: cover ;
+}
+.jumbotron h1{
+    text-shadow: 1px 1px 20px rgb(70, 70, 70)
+}
+.navbar-collapse{
+    justify-content: space-between ;
+}
+.navbar-text{
+    font-size: 40px
+}
+.nav-link{
+    margin: 10px ;
+    color: white;
+    border: solid white ;
+    border-radius: 20px ;
+}
+.nav-link:hover{
+    background-color: #fff;
+    color: #DC3545 ;
+    box-shadow: 5px 5px  rgba(65, 65, 65, 0.5)
+}
+.title{
+    text-align: center ;
+    margin: 50px ;
+    color: #DC3545;
+    font-weight: bold ;
+}
+article{
+    margin: 30px 0 ;
+}
+h2{
+    text-shadow: 1px 1px 20px black ;
+}
+article p{
+    color: black ;
+}
+article:hover{
+    border: solid white ;
+    border-radius: 20px 0px ;
+    box-shadow: 1px 1px 20px black ;
+    text-shadow: 10px 10px 10px white ;
+}
+.langues{
+    margin-left: 22px ;
+}
+
+.progress{
+    width: 90%;
+    margin: 20px ;
+    height: 30px ;
+}
+.progress-bar{
+    width: 50% ;
+    height: 30px ;
+}
+/*Contact sectiom*/
+.content-header{
+    font-family: 'Oleo Script', cursive;
+    color:#fcc500;
+    font-size: 45px;
+  }
+  
+  .section-content{
+    text-align: center; 
+  }
+  #contact{
+      
+      font-family: 'Teko', sans-serif;
+    padding-top: 60px;
+    width: 100%;
+    height: 100% ;
+    background: #DC3545 ;
+      color : #fff;    
+  }
+  .contact-section{
+    padding-top: 40px;
+    display: flex ;
+  }
+  .contact-section .col-md-6{
+    width: 50%;  
+  }
+  
+  .form-group{
+    margin-top: 10px;
+  }
+  label{
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+  }
+  .form-control{
+    font-size: 1.3em;
+    color: #080808;
+    border: solid darkred
+  }
+  textarea.form-control {
+      height: 135px;
+     /* margin-top: px;*/
+  }
+  
+  .submit{
+    font-size: 1.1em;
+    float: right;
+    background-color: transparent;
+    color: #fff;
+  }
+  .submit:hover{
+     background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+
